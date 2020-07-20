@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 const CardPage = () => {
     return <React.Fragment>
             <ShoppingCartTable/>
-            <NavLink to='/'>
+            <NavLink to='/book-store'>
                 <Button variant="dark">Back</Button>
             </NavLink>
         </React.Fragment>

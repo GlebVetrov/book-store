@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom';
 const ShopHeader = ({ numItems, total }) => {
     return (
         <header className='shop-header row'>
-            <NavLink to='/'>
+            <NavLink to='/book-store'>
                 <div className='logo text-primary' href='#'>BooksStore</div>
             </NavLink>
-            <NavLink to='/cart'>
+            <NavLink to='/book-store/cart'>
                 <div>
                     <i className='cart-icon fa fa-shopping-cart'/>
                     {numItems} items (${total})

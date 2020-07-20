@@ -13,9 +13,9 @@ const Container = ({ location }) => {
           <TransitionGroup>
               <CSSTransition key={location.key} timeout={{ enter: 300, exit: 300 }} classNames={'fade'}>
                   <Switch location={location}>
-                        <Route path='/' exact component={HomePage}/>
-                        <Route path='/cart' component={CardPage}/>
-                        <Route path="/:clid" component={HomePage}/>
+                        <Route path='/book-store' exact component={HomePage}/>
+                        <Route path='/book-store/cart' component={CardPage}/>
+                        <Route path="/book-store/:clid" component={HomePage}/>
                   </Switch>
               </CSSTransition>
         </TransitionGroup>
