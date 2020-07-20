@@ -1,0 +1,23 @@
+.book-list {
+    list-style: none;
+}
+
+.book-select {
+    background-color: #007bff;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    font-size: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.ActivePageLink {    
+    font-weight: bold;
+    text-decoration: underline;
+}
